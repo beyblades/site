@@ -218,6 +218,7 @@ h6 {
   background-size: cover;
 }
 
+
 #intro .intro-info h2 {
   color: #413e66;
   margin-bottom: 40px;
@@ -363,6 +364,22 @@ h6 {
   position: absolute;
   right: 15px;
 }
+
+.main-nav .educate{
+  font-size: 13px;
+  font-weight: 550;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+}
+
+
 
 /* Mobile Navigation */
 
@@ -1327,25 +1344,26 @@ h6 {
 }
 
 #footer .copyright {
-  text-align: center;
+  text-align: left;
   padding-top: 30px;
   color: #535074;
   font-size: 15px;
 }
 
 #footer .credits {
-  text-align: center;
-  font-size: 14px;
-  padding-top: 4px;
+  text-align: right;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
   color: #8582a8;
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #8582a8;
 }
 
 #footer .credits a:hover {
-  color: #0a98c0;
+  color: #1bb1dc;
 }
 
 /*--------------------------------------------------------------
@@ -1377,6 +1395,10 @@ h6 {
   #testimonials .testimonial-item p {
     width: 80%;
   }
+}
+
+#blog {
+  padding: 80px 0 60px 0;
 }
 
 @media (max-width: 991px) {
